@@ -35,7 +35,7 @@ pip install git+https://github.com/xemarap/koladapy.git
 
 ## Quick Start
 
-Visit the [tutorials]('https://github.com/xemarap/koladapy/tree/main/tutorials') folder for a basic usage guide.
+Visit the [tutorials](https://github.com/xemarap/koladapy/tree/main/tutorials) folder for a basic usage guide.
 
 ```python
 from koladapy import KoladaAPI
@@ -64,13 +64,13 @@ print(df.head())
 
 Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
 
-- [Submit suggestions and report bugs (for faster troubleshooting please enable debug mode and submit the errormessage)]('https://github.com/xemarap/koladapy/issues')
-- [Open a Pull Request]('https://github.com/xemarap/koladapy')
-- [Star the GitHub page]('https://github.com/xemarap/koladapy')
+- [Submit suggestions and report bugs (for faster troubleshooting please enable debug mode and submit the errormessage)](https://github.com/xemarap/koladapy/issues)
+- [Open a Pull Request](https://github.com/xemarap/koladapy)
+- [Star the GitHub page](https://github.com/xemarap/koladapy)
 
 ## Resources
 
-- [Kolada API v3 documentation]('https://api.kolada.se/v3/docs')
+- [Kolada API v3 documentation](https://api.kolada.se/v3/docs)
 
 ## License
 
