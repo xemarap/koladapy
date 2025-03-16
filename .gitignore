@@ -44,3 +44,5 @@ cli.py
 *.swp
 *.swo
 .DS_Store
+tutorials/KoladaPy - Get Started.ipynb
+tutorials/KoladaPy - Use Case Education.ipynb
