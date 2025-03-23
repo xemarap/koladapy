@@ -29,7 +29,7 @@ kpis_df = kolada.search_kpis(query="gymnasieutbildning", as_dataframe=True)
 print(kpis_df.head())
 
 # Search for KPIs with a publication date
-kpis = kolada.search_kpis(query="invånare", updated_since="2026-02-21")
+kpis = kolada.search_kpis(query="invånare", publication_date="2026-02-21")
 print(f"Found {len(kpis)} KPIs with publication date 2026-02-21")
 
 # Search KPIs by operating area
