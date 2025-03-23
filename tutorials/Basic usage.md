@@ -16,7 +16,6 @@ kolada = KoladaAPI()
 You can search for KPIs in the Kolada database with the `search_kpis()` function using the following parameters:
 
 - **query**: Search terms to filter KPIs by title
-- **updated_since**: Filter KPIs updated since this date (format: YYYY-MM-DD)
 - **publication_date**: Filter KPIs by publication date (format: YYYY-MM-DD)
 - **operating_area**: Filter KPIs by operating area (e.g., "Hälso- och sjukvård")
 
@@ -29,9 +28,9 @@ print(f"Found {len(kpis)} KPIs related to 'gymnasieutbildning'")
 kpis_df = kolada.search_kpis(query="gymnasieutbildning", as_dataframe=True)
 print(kpis_df.head())
 
-# Search for KPIs updated since a specific date
-kpis = kolada.search_kpis(query="gymnasieutbildning", updated_since="2024-01-01")
-print(f"Found {len(kpis)} KPIs updated since 2024-01-01")
+# Search for KPIs with a publication date
+kpis = kolada.search_kpis(query="invånare", updated_since="2026-02-21")
+print(f"Found {len(kpis)} KPIs with publication date 2026-02-21")
 
 # Search KPIs by operating area
 kpis_oa_df = kolada.search_kpis(operating_area="Hälso- och sjukvård", as_dataframe=True)

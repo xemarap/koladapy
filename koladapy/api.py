@@ -217,7 +217,6 @@ class KoladaAPI:
     
     def search_kpis(self, 
                query: str = None, 
-               updated_since: Union[str, datetime.date] = None,
                publication_date: Union[str, datetime.date] = None,
                operating_area: str = None,
                as_dataframe: bool = False) -> Union[List[Dict], pd.DataFrame]:
@@ -226,7 +225,6 @@ class KoladaAPI:
     
         Args:
             query: Search terms to filter KPIs by title
-            updated_since: Filter KPIs updated since this date (format: YYYY-MM-DD)
             publication_date: Filter KPIs by publication date (format: YYYY-MM-DD)
             operating_area: Filter KPIs by operating area (e.g., "Hälso- och sjukvård")
             as_dataframe: If True, return results as a Pandas DataFrame
@@ -238,9 +236,6 @@ class KoladaAPI:
     
         if query:
             params['title'] = query
-        
-        if updated_since:
-            params['from_date'] = parse_date(updated_since)
         
         kpis = self._paginate_request('kpi', params)
     

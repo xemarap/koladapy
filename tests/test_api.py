@@ -165,11 +165,6 @@ class TestKoladaAPI:
         kolada_api._paginate_request.assert_called_once_with('kpi', {'title': 'education'})
         assert result == SAMPLE_KPI_RESPONSE["values"]
 
-        # Test with date parameter
-        kolada_api._paginate_request.reset_mock()
-        result = kolada_api.search_kpis(updated_since="2023-01-01")
-        kolada_api._paginate_request.assert_called_once_with('kpi', {'from_date': '2023-01-01'})
-
         # Test with dataframe output
         kolada_api._paginate_request.reset_mock()
         kolada_api._paginate_request.return_value = SAMPLE_KPI_RESPONSE["values"]
