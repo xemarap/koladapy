@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="koladapy",
-    version="0.1.0",
+    version="1.0.0",
     packages=find_packages(),
     install_requires=[
         "requests>=2.25.0",
@@ -21,9 +21,10 @@ setup(
         "Programming Language :: Python :: 3",
         "License :: MIT License",
         "Operating System :: OS Independent",
-        "Development Status :: 3 - Alpha",
+        "Development Status :: 4 - Beta",
         "Intended Audience :: Developers",
         "Intended Audience :: Science/Research",
+        "Intended Audience :: Analysts",
         "Topic :: Data Analysis :: Information Analysis :: Kolada",
     ]
 )
