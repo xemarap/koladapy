@@ -76,6 +76,12 @@ Contributions are welcome! Please feel free to submit a Pull Request. For major 
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## Acknowledgments
+## Acknowledgements
 
-- Contributors to the project
+This project uses the following open source packages:
+- [requests](https://github.com/psf/requests)
+- [pandas](https://github.com/pandas-dev/pandas)
+- [tqdm](https://github.com/tqdm/tqdm)
+- [backoff](https://github.com/litl/backoff)
+
+The full license texts are available in the LICENSES directory.
