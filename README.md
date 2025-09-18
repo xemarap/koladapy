@@ -1,3 +1,9 @@
+
+<picture align="center">
+  <source media="(prefers-color-scheme: dark)" srcset="images/koladapy_dark.png">
+  <img alt="Logo" src="images/koladapy_light.png">
+</picture>
+
 # KoladaPy
 
 A comprehensive Python wrapper for the Kolada API v3, providing access to Swedish municipality data.
