@@ -38,7 +38,7 @@ Kolada is a database containing key performance indicators (KPIs) for Swedish mu
 ## Installation
 
 ```bash
-pip install git+https://github.com/xemarap/koladapy.git
+pip install koladapy
 ```
 
 ## Quick Start
