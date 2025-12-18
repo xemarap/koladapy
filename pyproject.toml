@@ -19,7 +19,7 @@ classifiers = [
     "Intended Audience :: Science/Research",
     "Topic :: Software Development :: Libraries :: Python Modules",
 ]
-license = {text = "MIT"}
+license = "MIT"
 license-files = ["LICENSE"]
 
 keywords = ["kolada", "api", "sweden", "municipalities", "data", "statistics"]
