@@ -1,6 +1,6 @@
 # Include essential documentation files
 include README.md
-include LICENSE
+include LICENSE.md
 include pyproject.toml
 
 # Include all Python files in the koladapy package
