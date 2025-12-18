@@ -12,6 +12,7 @@ setup(
     ],
     python_requires=">=3.7",
     author="Emanuel Raptis",
+    autor_email="emanuelraptis@gmail.com",
     description="A Python wrapper for the Kolada API v.3 (Swedish municipalities data)",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
