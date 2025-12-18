@@ -11,7 +11,7 @@ authors = [
 description = "A Python wrapper for the Kolada API v3 (Swedish municipalities data)"
 readme = "README.md"
 requires-python = ">=3.7"
-license = {text = "MIT"}
+license = {file = "LICENSE.md"}
 classifiers = [
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3.7",
@@ -48,7 +48,7 @@ Repository = "https://github.com/xemarap/koladapy"
 "Bug Tracker" = "https://github.com/xemarap/koladapy/issues"
 
 [tool.setuptools]
-license-files = ["LICENSE"]
+license-files = ["LICENSE.md"]
 
 [tool.setuptools.packages.find]
 where = ["."]
