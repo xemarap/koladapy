@@ -1,30 +1,5 @@
-from setuptools import setup, find_packages
+from setuptools import setup
 
-setup(
-    name="koladapy",
-    version="1.0.0",
-    packages=find_packages(),
-    install_requires=[
-        "requests>=2.25.0",
-        "pandas>=1.1.0",
-        "tqdm>=4.50.0",
-        "backoff>=1.10.0",
-    ],
-    python_requires=">=3.7",
-    author="Emanuel Raptis",
-    autor_email="emanuelraptis@gmail.com",
-    description="A Python wrapper for the Kolada API v.3 (Swedish municipalities data)",
-    long_description=open("README.md").read(),
-    long_description_content_type="text/markdown",
-    url="https://github.com/xemarap/koladapy",
-    classifiers=[
-        "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: MIT License",
-        "Operating System :: OS Independent",
-        "Development Status :: 4 - Beta",
-        "Intended Audience :: Developers",
-        "Intended Audience :: Science/Research",
-        "Intended Audience :: Analysts",
-        "Topic :: Data Analysis :: Information Analysis :: Kolada",
-    ]
-)
+# All configuration is now in pyproject.toml
+# This file is kept for backward compatibility with older pip versions
+setup()
